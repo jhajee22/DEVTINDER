@@ -14,4 +14,12 @@ use of -g while npm install
 -Routes  & how routes are working in order
 -Play with routes and routes extensions  e.g- ./hello, hello/2
 -Write logic to handle GET,PUT,PATCH,DELETE and test in postman
+-Explore routing and use of ?,*,(), in the routes 
+-Use of regex in routes /a/,/*fly$/
+-Read the query param in the routes
+-Reading the dynamic routes
+-Handling dynamic routes
+-One route can have multipe handlers
+-Use of next in route hanler
+- What will happen if next() will be before res.send()
 
