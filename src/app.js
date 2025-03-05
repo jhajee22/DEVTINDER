@@ -21,7 +21,8 @@ const app = express();
 
 
 app.get("/user",(req,res) =>{
-    res.send("Hello From the server");
+    const employee = { id: 1, name: "Saurav", age: 25 };
+    res.send(employee);
 })
 
 
